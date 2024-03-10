@@ -80,3 +80,10 @@ extern	shellcmd  mu_arkanoid	(int32, char *[]);
 
 /* in file xsh_help.c */
 extern	shellcmd  xsh_help	(int32, char *[]);
+
+/* my own additions */
+extern shellcmd printAB();
+
+extern shellcmd sharedAB();
+
+extern shellcmd producerconsumer();

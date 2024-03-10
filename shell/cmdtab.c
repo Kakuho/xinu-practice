@@ -34,6 +34,9 @@ const	struct	cmdent	cmdtab[] = {
 	{"vt",	FALSE,	vt},
 	{"mu_galaga",	FALSE,	mu_galaga},
 	{"mu_arkanoid",	FALSE,	mu_arkanoid},
+  {"printab", FALSE, printAB},
+  {"sharedab", FALSE, sharedAB},
+  {"prodconsume", FALSE, producerconsumer},
 	{"?",		FALSE,	xsh_help},
 
 };
