@@ -84,6 +84,6 @@ extern	shellcmd  xsh_help	(int32, char *[]);
 /* my own additions */
 extern shellcmd printAB();
 
-extern shellcmd sharedAB();
-
 extern shellcmd producerconsumer();
+
+extern shellcmd mutual_cooperation();
